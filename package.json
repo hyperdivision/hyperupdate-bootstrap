@@ -1,0 +1,24 @@
+{
+  "name": "hyperupdate-test",
+  "version": "1.0.26",
+  "description": "",
+  "main": "electron-main.js",
+  "scripts": {
+    "start": "electron electron-main.js",
+    "dist": "electron-builder --publish=never --mac"
+  },
+  "build": {
+    "files": [
+      "electron-main.js"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hyperupdate": "^1.0.3"
+  },
+  "devDependencies": {
+    "electron": "^9.1.0",
+    "electron-builder": "^22.7.0"
+  }
+}
